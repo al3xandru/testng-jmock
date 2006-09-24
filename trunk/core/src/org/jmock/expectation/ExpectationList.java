@@ -4,7 +4,8 @@ package org.jmock.expectation;
 
 import java.util.ArrayList;
 import java.util.Collection;
-import org.jmock.Assert;
+
+import org.jmock.util.Assert;
 
 
 public class ExpectationList extends AbstractExpectationCollection

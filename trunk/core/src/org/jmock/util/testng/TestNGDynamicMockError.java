@@ -1,11 +1,11 @@
 /*  Copyright (c) 2000-2004 jMock.org
  */
-package org.jmock.util;
+package org.jmock.util.testng;
 
-import org.jmock.core.DynamicMockError;
-import org.jmock.core.InvocationDispatcher;
 import org.jmock.core.DynamicMock;
+import org.jmock.core.DynamicMockError;
 import org.jmock.core.Invocation;
+import org.jmock.core.InvocationDispatcher;
 
 /**
  * @since 1.0

@@ -4,7 +4,7 @@ package org.jmock.util;
 
 import java.lang.reflect.Field;
 import java.util.Vector;
-import org.jmock.Assert;
+
 import org.jmock.core.Verifiable;
 
 

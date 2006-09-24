@@ -43,7 +43,7 @@ abstract public class AbstractExpectation implements Verifiable, Expectation
             return;
         }
 
-        org.jmock.Assert.fail(myName
+        org.jmock.util.Assert.fail(myName
                                     + " "
                                     + msg
                                     + "\nExpected: "

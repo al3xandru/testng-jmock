@@ -1,6 +1,8 @@
-package org.jmock.util;
+package org.jmock.util.junit;
 
 import junit.framework.AssertionFailedError;
+
+import org.jmock.util.MockAssertionError;
 
 public class JUnitMockAssertionError extends AssertionFailedError implements MockAssertionError
 {

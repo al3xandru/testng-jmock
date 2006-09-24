@@ -1,4 +1,6 @@
-package org.jmock.util;
+package org.jmock.util.testng;
+
+import org.jmock.util.MockAssertionError;
 
 public class TestNGMockAssertionError extends AssertionError implements MockAssertionError
 {

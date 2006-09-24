@@ -1,14 +1,15 @@
 /*  Copyright (c) 2000-2004 jMock.org
  */
-package org.jmock.util;
+package org.jmock.util.testng;
 
 import org.jmock.core.Constraint;
+import org.jmock.util.Assert.IAssert;
 import org.testng.Assert;
 
 /**
  * @author Andres Almiray <aalmiray@users.sourceforge.net>
  */
-public class TestNGAssert implements NewAssert
+public class TestNGAssert implements IAssert
 {
    public void assertEquals( boolean expected, boolean actual )
    {

@@ -32,7 +32,7 @@ import org.jmock.core.constraint.StringEndsWith;
 import org.jmock.core.constraint.StringStartsWith;
 import org.jmock.core.matcher.InvocationMatchers;
 import org.jmock.core.stub.Stubs;
-import org.jmock.util.JMockUtils;
+import org.jmock.util.Assert;
 
 /**
  * A base class for tests that use <a href="http://www.mockobjects.com">Mock

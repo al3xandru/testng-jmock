@@ -2,9 +2,9 @@
  */
 package org.jmock.core.matcher;
 
-import org.jmock.Assert;
 import org.jmock.core.Invocation;
 import org.jmock.core.InvocationMatcher;
+import org.jmock.util.Assert;
 
 
 public class InvokedRecorder
