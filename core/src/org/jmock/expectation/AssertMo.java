@@ -2,8 +2,8 @@
  */
 package org.jmock.expectation;
 
-import org.jmock.Assert;
 import org.jmock.core.Verifiable;
+import org.jmock.util.Assert;
 import org.jmock.util.JMockUtils;
 import org.jmock.util.MockAssertionError;
 import org.jmock.util.NotImplementedException;

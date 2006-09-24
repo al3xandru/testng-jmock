@@ -3,13 +3,13 @@
 package org.jmock.core;
 
 import java.lang.reflect.Method;
-import java.util.*;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.jmock.Assert;
+import org.jmock.util.Assert;
 
 /**
  * The static details about a method and the run-time details of its invocation.

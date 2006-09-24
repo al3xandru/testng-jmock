@@ -1,16 +1,17 @@
 /*  Copyright (c) 2000-2004 jMock.org
  */
-package org.jmock.util;
+package org.jmock.util.junit;
 
 import junit.framework.Assert;
 import junit.framework.AssertionFailedError;
 
 import org.jmock.core.Constraint;
+import org.jmock.util.Assert.IAssert;
 
 /**
  * @author Andres Almiray <aalmiray@users.sourceforge.net>
  */
-public class JUnitAssert implements NewAssert
+public class JUnitAssert implements IAssert
 {
    public void assertEquals( boolean expected, boolean actual )
    {

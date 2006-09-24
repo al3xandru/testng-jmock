@@ -2,9 +2,9 @@
  */
 package org.jmock.core.stub;
 
-import org.jmock.Assert;
 import org.jmock.core.Invocation;
 import org.jmock.core.Stub;
+import org.jmock.util.Assert;
 
 public class ThrowStub extends Assert implements Stub {
     private Throwable throwable;

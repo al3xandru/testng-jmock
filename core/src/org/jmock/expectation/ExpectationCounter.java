@@ -2,7 +2,7 @@
  */
 package org.jmock.expectation;
 
-import org.jmock.Assert;
+import org.jmock.util.Assert;
 
 
 public class ExpectationCounter extends AbstractExpectation
